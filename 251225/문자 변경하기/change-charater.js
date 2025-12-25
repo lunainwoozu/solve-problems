@@ -1,4 +1,4 @@
 let a = 'C';
-let a = 'T';
+a = 'T';
 
 console.log(a);
