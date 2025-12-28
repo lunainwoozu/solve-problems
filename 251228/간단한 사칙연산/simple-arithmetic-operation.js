@@ -5,5 +5,5 @@ let [A, B] = [Number(input[0]), Number(input[1])]
 
 console.log(A + B);
 console.log(A - B);
-console.log((A / B).toFixed(0));
+console.log(Math.floor(A / B));
 console.log(A % B);
