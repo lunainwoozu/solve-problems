@@ -1,6 +1,5 @@
 const fs = require('fs');
 const n = Number(fs.readFileSync(0));
-let arr = [];
 let cnt = 0;
 
 for (let i = 0; i < n * 2 - 1; i++) {
@@ -12,8 +11,8 @@ for (let i = 0; i < n * 2 - 1; i++) {
     }
 
     for (let j = 0; j < cnt; j++) {
-        arr.push("*");
+        str += "* ";
     }
 
-    console.log(arr.join(" "));
+    console.log(str);
 }
