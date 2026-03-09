@@ -7,5 +7,5 @@ def solution(numer1, denom1, numer2, denom2):
         if num1 % i == 0 and num2 % i == 0:
             gcd = i
     
-    answer = [num1 / gcd, num2 / gcd]
+    answer = [num1 // gcd, num2 // gcd]
     return answer
